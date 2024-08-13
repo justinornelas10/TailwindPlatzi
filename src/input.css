@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .card{
+        @apply w-48 h-72 bg-slate-200 shadow-2xl rounded-lg
+        transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300;
+    }
+
+    .card figure{
+        @apply w-full h-3/5 rounded-t-lg bg-cover;
+    }
+
+    .card_cont{
+        @apply w-full h-auto p-1 px-2
+    }
+    .card h4{
+        @apply text-lg text-white font-medium;
+    }
+}
