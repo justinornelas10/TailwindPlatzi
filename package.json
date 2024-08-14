@@ -4,5 +4,8 @@
   },
   "scripts": {
     "tw:build": "tailwindcss -i ./src/input.css -o ./public/output.css --watch"
+  },
+  "dependencies": {
+    "tailwind-scrollbar-hide": "^1.1.7"
   }
 }
