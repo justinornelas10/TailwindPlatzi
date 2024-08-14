@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "tailwindcss": "^3.4.9"
+  },
+  "scripts": {
+    "tw:build": "tailwindcss -i ./src/input.css -o ./public/output.css --watch"
   }
 }
