@@ -2,7 +2,12 @@
 
 module.exports = {
   content: ["./src/**/*.{html,js}"],
+  darkMode: 'class',
   theme: {
+    screens:{
+      'sm':'320px',
+      'lg':'1024px',
+    },
     // colors:{
     //   'primary': '#CC2D4A',
     //   'secondary': '#8FA206',
