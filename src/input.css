@@ -4,7 +4,7 @@
 
 @layer components{
     .card{
-        @apply w-48 h-96 bg-slate-200 shadow-2xl rounded-lg
+        @apply w-48 h-80 bg-slate-200 shadow-lg rounded-lg pb-2
         transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300;
     }
 
@@ -13,7 +13,7 @@
     }
 
     .card_cont{
-        @apply w-full h-auto p-1 px-2 rounded-md
+        @apply w-full h-auto p-1 px-2 rounded-lg;
     }
     .card h4{
         @apply text-lg text-white font-medium;
@@ -22,13 +22,13 @@
     .rents{
         @apply  w-auto h-auto bg-red-300;
     }
-    /*
-    .rents figure{
-        @apply  w-full h-auto bg-cover;
-    } */
     
     .rents_description{
-        @apply w-60 h-20 bg-slate-300 rounded-b-lg p-0 m-0 absolute
+        @apply w-60 h-auto bg-slate-300 rounded-b-lg pb-2
         transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-150 focus-within:shadow-md;
     } 
+
+    #faqs .faqs{
+        @apply dark:text-white
+    }
 }
